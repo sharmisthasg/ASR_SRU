@@ -51,4 +51,28 @@ Correct predictions = 192
 
 Accuracy = 87.27272727272727%
 
+#### Confusion Matrix:
+
+![Confusion Matrix](/images/confusion_matrix_1.png)
+
+#### Loss Plot for Training:
+
+![Loss Plot for Training](/images/loss_plot.png)
+
+The trained model along with the weights can be accessed [here](https://drive.google.com/file/d/12TkL3GNNogYDo4VXYAvGymli3S1RFHMf/view?usp=sharing).
+
+### TESTING RESULTS
+
+After training the model, we test on a few unseen samples to see the performance of the model. 
+
+Total number of test samples = 20
+ 
+Correct predictions = 13
+ 
+Accuracy = 65.0%
+
+#### Confusion Matrix:
+
+![Confusion Matrix](/images/confusion_matrix_2.png)
+
 
