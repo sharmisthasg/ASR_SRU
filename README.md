@@ -1,8 +1,15 @@
 # ASR_SRU
 
-## DNN Implementation on Tamil Digits 
+## DEEP NEURAL NETWORK FOR TAMIL DIGITS RECOGNITION
 
-### Dataset
+### DEPENDENCIES
+* Numpy 
+* Pandas 
+* Librosa
+* Pytorch 
+* Sklearn
+
+### DATASET
 
 The tamil digits dataset consists of audio files recorded in ‘.wav’ format. Each file contains the utterance of one tamil digit from 0-9. The length of each file is approximately 1 second. A total of 230-250 samples are present with each digit having around 13-15 samples. The dataset can be accessed [here](https://drive.google.com/file/d/1S2JTQHnG5QLgcG8X3DIIopU5Z0oeglpM/view?usp=sharing). 
 
