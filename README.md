@@ -99,7 +99,7 @@ The dataset can be accessed [here](https://github.com/Ralireza/spoken-digit-reco
 
 ## IMPLEMENTATIONS
 
-### HMMLEARN IMPLEMENTATION FOR TAMIL AND TELUGU DIGITS RECOGNITION
+### HMMLEARN FOR TAMIL AND TELUGU DIGITS RECOGNITION
 
 ### Dependencies
 
@@ -107,7 +107,7 @@ The dataset can be accessed [here](https://github.com/Ralireza/spoken-digit-reco
 * hmmlearn
 * python_speech_features
 
-### HTK IMPLEMENTATION FOR HINDI CONTINUOUS SPEECH AND TELUGU WORDS RECOGNITION
+### HTK FOR HINDI CONTINUOUS SPEECH AND TELUGU WORDS RECOGNITION
  
 ### HTK Installation (Linux)
 
