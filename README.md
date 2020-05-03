@@ -94,7 +94,7 @@ Accuracy = 65.0%
 
 ![Confusion Matrix](/images/confusion_matrix_2.png)
 
-## HMMLEARN IMPLEMENTATION ON TAMIL AND TELUGU DIGITS 
+### HMMLEARN IMPLEMENTATION FOR TAMIL AND TELUGU DIGITS RECOGNITION
 
 ### Dependencies
 
@@ -102,7 +102,7 @@ Accuracy = 65.0%
 * hmmlearn
 * python_speech_features
 
-## HTK IMPLEMENTATION ON TELUGU WORDS
+### HTK IMPLEMENTATION FOR TELUGU WORDS RECOGNITION
  
 ### HTK Installation (Linux)
 
