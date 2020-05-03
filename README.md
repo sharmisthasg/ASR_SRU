@@ -99,7 +99,7 @@ The dataset can be accessed [here](https://github.com/Ralireza/spoken-digit-reco
 
 ## IMPLEMENTATIONS
 
-### HMMLEARN FOR TAMIL AND TELUGU DIGITS RECOGNITION
+### HMMLEARN FOR TAMIL AND TELUGU DIGITS, AND TELUGU WORDS RECOGNITION
 
 ### Dependencies
 
@@ -107,7 +107,7 @@ The dataset can be accessed [here](https://github.com/Ralireza/spoken-digit-reco
 * hmmlearn
 * python_speech_features
 
-### HTK FOR HINDI CONTINUOUS SPEECH AND TELUGU WORDS RECOGNITION
+### HTK FOR HINDI CONTINUOUS SPEECH RECOGNITION
  
 ### HTK Installation (Linux)
 
@@ -118,7 +118,7 @@ The dataset can be accessed [here](https://github.com/Ralireza/spoken-digit-reco
 * Download the Hindi dataset mentioned above.
 * Clone this repository: https://github.com/KunalDhawan/ASR-System-for-Hindi-Language/tree/master/HTK
 
-### DEEP NEURAL NETWORK FOR TAMIL AND TELUGU DIGITS RECOGNITION
+### DEEP NEURAL NETWORK (DNN) FOR TAMIL AND TELUGU DIGITS RECOGNITION
 
 ### Dependencies
 * Numpy 
