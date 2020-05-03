@@ -104,6 +104,75 @@ yevaru | who
 * hmmlearn
 * python_speech_features
 
+### Tamil Digits
+
+Training Results:
+
+![Fig](/images/tam_train.png)
+**Accuracy:** 61.48%
+
+Testing Results:
+
+![Fig](/images/tam_test_1.png)
+**Accuracy:** 60.97%
+
+Summary:
+
+![Fig](/images/tam_test_2.png)
+
+### Telugu Digits
+
+Training Results:
+
+![Fig](/images/telugu_dig_train.png)
+**Accuracy:** 50.24%
+
+Testing Results:
+
+![Fig](/images/telugu_dig_test.png)
+**Accuracy:** 58.06%
+
+### Telugu Words
+
+Training Results:
+
+![Fig](/images/telugu_words_train.png)
+**Accuracy:** 65%
+
+Testing Results:
+
+![Fig](/images/telugu_words_test_1.png)
+**Accuracy:** 60%
+
+Summary:
+![Fig](/images/telugu_words_test_2.png)
+
+### English Digits
+
+* **Entire Dataset**
+
+  Training Results:
+
+  ![Fig](/images/eng_f_train.png)
+  **Accuracy:** 96.75%
+
+  Testing Results:
+
+  ![Fig](/images/eng_f_test.png)
+  **Accuracy:** 94%
+  
+* **Limited Dataset**
+
+  Training Results:
+
+  ![Fig](/images/eng_l_train.png)
+  **Accuracy:** 60%
+
+  Testing Results:
+
+  ![Fig](/images/eng_l_test.png)
+  **Accuracy:** 60% 
+
 ### HTK FOR HINDI CONTINUOUS SPEECH RECOGNITION
  
 ### HTK Installation (Linux)
@@ -124,6 +193,8 @@ yevaru | who
 * Pytorch 
 * Sklearn
 
+### Tamil Digits
+
 In order to compare the performance of the HMM model on the tamil digits dataset, we train a modern deep learning architecture for the same dataset and observe the performance and compare it with the previous model. 
 
 The deep learning model that has been chosen is a Long Short-Term Memory (LSTM) model. LSTM are a special member of the Recurrent Neural Network (RNN) family and have the ability to model the data based on previous data. A non-recurrent Neural Network does not have any memory whereas an RNN has a limited memory and they tend to perform badly on data that has long term temporal dependency on the previous data. LSTM also has the ability to decide how much information to use in its memory as they have input gates, forget gates and output gates. 
@@ -142,7 +213,7 @@ LSTM(
   * Loss function used = MSE (Mean Squared Error) Loss
   * Optimizer used = Adam Optimizer
 
-### Training Results
+**Training Results**
 
 We trained the model on 220 samples by shuffling the samples. The model was trained for 100 epochs and used batch gradient descent on a batch size of 20 samples. The results are as follows :
 
@@ -160,7 +231,7 @@ We trained the model on 220 samples by shuffling the samples. The model was trai
 
 The trained model along with the weights can be accessed [here](https://drive.google.com/file/d/12TkL3GNNogYDo4VXYAvGymli3S1RFHMf/view?usp=sharing).
 
-### Testing Results
+**Testing Results**
 
 After training the model, we test on a few unseen samples to see the performance of the model. 
 
@@ -171,6 +242,58 @@ After training the model, we test on a few unseen samples to see the performance
 #### Confusion Matrix:
 
 ![Confusion Matrix](/images/confusion_matrix_2.png)
+
+### Telugu Digits
+
+In order to compare the performance of the HMM model on the telugu digits dataset, we train a modern deep learning architecture for the same dataset and observe the performance and compare it with the previous model. 
+
+The deep learning model that has been chosen is a Long Short-Term Memory (LSTM) model. LSTM are a special member of the Recurrent Neural Network (RNN) family and have the ability to model the data based on previous data. A non-recurrent Neural Network does not have any memory whereas an RNN has a limited memory and they tend to perform badly on data that has long term temporal dependency on the previous data. LSTM also has the ability to decide how much information to use in its memory as they have input gates, forget gates and output gates. 
+
+The LSTM architecture and the other hyper-parameters and functions used are given below:
+
+* Architecture
+
+LSTM(
+  (rnn): LSTM(81, 10, num_layers=2, dropout=0.1)
+  (fc): Sequential(
+    (0): Linear(in_features=10, out_features=10, bias=True))
+)
+
+* Hyper-Parameters
+
+Learning Rate = 0.01
+Loss function used = MSE (Mean Squared Error) Loss
+Optimizer used = Adam Optimizer
+
+**Training Results**
+
+We trained the model on 50 samples by shuffling the samples. The model was trained for 20 epochs and used batch gradient descent on a batch size of 5 samples. The results are as follows :
+
+* Total number of test samples = 50
+* Correct predictions = 45
+* Accuracy = 90.0%
+
+#### Confusion Matrix:
+
+![Confusion Matrix](/images/confusion_matrix_1_telugu.png)
+
+#### Loss Plot for Training:
+
+![Loss Plot for Training](/images/loss_plot_telugu.png)
+
+The trained model along with the weights can be accessed [here](https://drive.google.com/file/d/1-3g4bKk5_QeMQGhrKUyPxn7gc35z0fGS/view?usp=sharing).
+
+**Testing Results**
+
+After training the model, we test on a few unseen samples to see the performance of the model. 
+
+* Total number of test samples = 16
+* Correct predictions = 10
+* Accuracy = 62.5%
+
+#### Confusion Matrix:
+
+![Confusion Matrix](/images/confusion_matrix_2_telugu.png)
 
 ## REFERENCES
 
