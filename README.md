@@ -3,9 +3,9 @@
 ## INTRODUCTION
 
 The aim of this project is to implement automatic speech recognition algorithms using Hidden Markov Models (HMMs) for regional Indian languages. We have self-recorded Tamil digits, Telugu digits and words, and English continuous speech. We have also used external datasets for Hindi continuous speech and English digits. We have implemented HMM based systems using hmmlearn (Python library) and HTK (toolkit). We have also implemented a Deep Neural Network (DNN) based system to draw comparison and have presented our analysis. Following are the working implementations:
-* [hmmlearn for Tamil and Telugu Digits, and Telugu Words Recognition](### hmmlearn-for-tamil-and-telugu-digits,-and-telugu-words-recognition)
-* [HTK for Hindi Continuous Speech Recognition](### HTK-for-Hindi-Continuous-Speech-Recognition)
-* [Deep Neural Network (DNN) for Tamil and Telugu Digits Recognition](### Deep-Neural-Network-(DNN)-for-Tamil-and-Telugu-Digits-Recognition)
+* [hmmlearn for Tamil and Telugu Digits, and Telugu Words Recognition](###hmmlearn-for-tamil-and-telugu-digits,-and-telugu-words-recognition)
+* [HTK for Hindi Continuous Speech Recognition](###htk-for-hindi-continuous-speech-recognition)
+* [Deep Neural Network (DNN) for Tamil and Telugu Digits Recognition](###deep-neural-network-(DNN)-for-tamil-and-telugu-digits-recognition)
 
 ## LITERATURE REVIEW
 Automatic Speech Recognition (ASR) is a well researched field. The utilization of HMMs for ASR is studied well in [The Application of Hidden Markov Models in Speech Recognition](https://mi.eng.cam.ac.uk/~mjfg/mjfg_NOW.pdf). The paper presents the core architecture of a HMM-based Large Vocabulary Continuous Speech Recognition (LVCSR) system and then describes ways to achieve state-of-the-art performance. There is also a recent seminar report on [Hidden Markov Model and Speech Recognition](https://www.cse.iitb.ac.in/~nirav06/i/HMM_Report.pdf) which explains the Forward algorithm, the Viterbi algorithm and the Baum-Welch algorithm in the context of speech recognition and HMMs concisely.  
