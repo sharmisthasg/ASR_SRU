@@ -14,8 +14,6 @@ In the past few years, there has been significant work on developing speech reco
 
 [Automatic Speech Recognition Systems for Regional Languages in India](https://www.researchgate.net/publication/338790124_Automatic_Speech_Recognition_Systems_for_Regional_Languages_in_India) argues that Deep Neural Networks (DNNs) must be more efficent and accurate for speech recognition. 
 
-
-
 ## DATASETS
 
 ### Tamil Digits
@@ -88,14 +86,13 @@ yevaru | who
 ### English (Indian Accent) Continuous Speech
 
 #### Externally Obtained Datasets:
-##### Hindi Continuous Speech
-  
-The dataset consists of 150 sentences in Hindi with 7 different speakers for each. It can be accessed [here](https://drive.google.com/open?id=1DHZkTDgRsG3X9YRAzsWXBdYUXj3sE2DY).
-    
-##### English Digits
-    
-The dataset can be accessed [here](https://github.com/Ralireza/spoken-digit-recognition/tree/master/spoken_digit).
+* **Hindi Continuous Speech:**
 
+  The dataset consists of 150 sentences in Hindi with 7 different speakers for each. It can be accessed [here](https://drive.google.com/open?id=1DHZkTDgRsG3X9YRAzsWXBdYUXj3sE2DY).
+    
+* **English Digits:**
+
+  The dataset can be accessed [here](https://github.com/Ralireza/spoken-digit-recognition/tree/master/spoken_digit).
 
 ## IMPLEMENTATIONS
 
@@ -149,11 +146,9 @@ LSTM(
 
 We trained the model on 220 samples by shuffling the samples. The model was trained for 100 epochs and used batch gradient descent on a batch size of 20 samples. The results are as follows :
 
-Total number of test samples = 220
-
-Correct predictions = 192
-
-Accuracy = 87.27272727272727%
+* Total number of test samples = 220
+* Correct predictions = 192
+* Accuracy = 87.27272727272727%
 
 #### Confusion Matrix:
 
@@ -169,11 +164,9 @@ The trained model along with the weights can be accessed [here](https://drive.go
 
 After training the model, we test on a few unseen samples to see the performance of the model. 
 
-Total number of test samples = 20
- 
-Correct predictions = 13
- 
-Accuracy = 65.0%
+* Total number of test samples = 20
+* Correct predictions = 13
+* Accuracy = 65.0%
 
 #### Confusion Matrix:
 
