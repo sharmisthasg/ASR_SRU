@@ -1,14 +1,18 @@
 # Automatic Speech Recognition for Regional Indian Languages
 
-## PROBLEM STATEMENT
+## ABSTRACT
+
+The aim of this project is to try out automatic speech recognition implementations using Hidden Markov Models (HMMs) for regional Indian languages.  
 
 ## LITERATURE REVIEW
+
+
 
 ## DATASETS
 
 ### Tamil Digits
 
-The tamil digits dataset consists of audio files recorded in ‘.wav’ format. Each file contains the utterance of one tamil digit from 0-9. The length of each file is approximately 1 second. A total of 230-250 samples are present with each digit having around 13-15 samples. The dataset can be accessed [here](https://drive.google.com/file/d/1S2JTQHnG5QLgcG8X3DIIopU5Z0oeglpM/view?usp=sharing). 
+The Tamil digits dataset consists of audio files recorded in ‘.wav’ format. Each file contains the utterance of one Tamil digit from 0-9. The length of each file is approximately 1 second. A total of 230-250 samples are present with each digit having around 13-15 samples. The dataset can be accessed [here](https://drive.google.com/file/d/1S2JTQHnG5QLgcG8X3DIIopU5Z0oeglpM/view?usp=sharing). 
 
 The digit-label-utterance mapping is given in the following table.
 
@@ -27,9 +31,55 @@ Nine | 9 | Ombodu
 
 ### Telugu Digits
 
+The Telugu digits dataset consists of audio files recorded in ‘.wav’ format. Each file contains the utterance of one Telugu digit from 1-10. A total of ~60 samples are present with each digit having around 6-7 samples. The dataset can be accessed [here](). 
+
+The digit-label-utterance mapping is given in the following table.
+
+Digit | Label | Utterance
+----- | ----- | ---------
+One | 1 | Okati
+Two | 2 | Rendu
+Three | 3 | Mudu
+Four | 4 | Nalugu
+Five | 5 | Aidu
+Six | 6 | Aaru
+Seven | 7 | Edu
+Eight| 8 | Enimidi
+Nine | 9 | Tommidi
+Ten | 10 | Padi
+
 ### Telugu Words
 
+The Telugu words dataset consists of audio files recorded in ‘.wav’ format. Each file contains the utterance of one Telugu word. A total of 80 samples are present with each word having 4 samples. The dataset can be accessed [here](). 
+
+The Telugu-English word mapping is given in the following table.
+
+Word | Meaning 
+----- | ----- 
+abbayi | boy
+amma | mother
+ammayi | girl
+andarum | all
+batuku | everyone
+bojanum | meal
+chudama | check
+cinnema | movie
+dhairyam | courage
+kalisi | together
+kannu | eye
+kodatanu | beats
+konchum | slightly
+manum | 
+meeru | you
+nanna | father
+nenu | I
+pinni | aunt
+sonthum | 
+yevaru | who
+
 ### English (Indian Accent) Sentences
+
+### Hindi Sentences (Externally Obtained Dataset)
 
 ## IMPLEMENTATIONS
 
@@ -102,7 +152,7 @@ Accuracy = 65.0%
 * hmmlearn
 * python_speech_features
 
-### HTK IMPLEMENTATION FOR TELUGU WORDS RECOGNITION
+### HTK IMPLEMENTATION FOR HINDI SENTENCES AND TELUGU WORDS RECOGNITION
  
 ### HTK Installation (Linux)
 
