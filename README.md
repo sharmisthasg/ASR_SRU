@@ -1,15 +1,12 @@
-# ASR_SRU
+# Automatic Speech Recognition for Regional Indian Languages
 
-## DEEP NEURAL NETWORK FOR TAMIL DIGITS RECOGNITION
+## PROBLEM STATEMENT
 
-### DEPENDENCIES
-* Numpy 
-* Pandas 
-* Librosa
-* Pytorch 
-* Sklearn
+## LITERATURE REVIEW
 
-### DATASET
+## DATASETS
+
+### Tamil Digits
 
 The tamil digits dataset consists of audio files recorded in ‘.wav’ format. Each file contains the utterance of one tamil digit from 0-9. The length of each file is approximately 1 second. A total of 230-250 samples are present with each digit having around 13-15 samples. The dataset can be accessed [here](https://drive.google.com/file/d/1S2JTQHnG5QLgcG8X3DIIopU5Z0oeglpM/view?usp=sharing). 
 
@@ -28,7 +25,22 @@ Seven | 7 | Yezhu
 Eight| 8 | Yettu
 Nine | 9 | Ombodu
 
+### Telugu Digits
+
+### Telugu Words
+
+### English (Indian Accent) Sentences
+
+## IMPLEMENTATIONS
+
 ### DEEP NEURAL NETWORK FOR TAMIL DIGITS RECOGNITION
+
+### Dependencies
+* Numpy 
+* Pandas 
+* Librosa
+* Pytorch 
+* Sklearn
 
 In order to compare the performance of the HMM model on the tamil digits dataset, we train a modern deep learning architecture for the same dataset and observe the performance and compare it with the previous model. 
 
@@ -48,7 +60,7 @@ LSTM(
   * Loss function used = MSE (Mean Squared Error) Loss
   * Optimizer used = Adam Optimizer
 
-### TRAINING RESULTS 
+### Training Results
 
 We trained the model on 220 samples by shuffling the samples. The model was trained for 100 epochs and used batch gradient descent on a batch size of 20 samples. The results are as follows :
 
@@ -68,7 +80,7 @@ Accuracy = 87.27272727272727%
 
 The trained model along with the weights can be accessed [here](https://drive.google.com/file/d/12TkL3GNNogYDo4VXYAvGymli3S1RFHMf/view?usp=sharing).
 
-### TESTING RESULTS
+### Testing Results
 
 After training the model, we test on a few unseen samples to see the performance of the model. 
 
@@ -81,5 +93,19 @@ Accuracy = 65.0%
 #### Confusion Matrix:
 
 ![Confusion Matrix](/images/confusion_matrix_2.png)
+
+## HMMLEARN IMPLEMENTATION ON TAMIL AND TELUGU DIGITS 
+
+### Dependencies
+
+* Python (version 2.7. *)
+* hmmlearn
+* python_speech_features
+
+## HTK IMPLEMENTATION ON TELUGU WORDS
+ 
+### HTK Installation (Linux)
+
+* Follow the installation steps mentioned here: https://github.com/conbitin/htk3.5-install 
 
 
