@@ -2,10 +2,10 @@
 
 ## ABSTRACT
 
-The aim of this project is to try out automatic speech recognition implementations using Hidden Markov Models (HMMs) for regional Indian languages.  
+The aim of this project is to try out automatic speech recognition implementations using Hidden Markov Models (HMMs) for regional Indian languages. We have self-recorded Tamil digits, Telugu digits and words, and English continuous speech. We have also used external datasets for Hindi continuous speech and English digits.  
 
 ## LITERATURE REVIEW
-
+Automatic Speech Recognition 
 
 
 ## DATASETS
@@ -77,11 +77,38 @@ pinni | aunt
 sonthum | 
 yevaru | who
 
-### English (Indian Accent) Sentences
+### English (Indian Accent) Continuous Speech
 
-### Hindi Sentences (Externally Obtained Dataset)
+#### Externally Obtained Datasets:
+##### Hindi Continuous Speech
+  
+    The dataset consists of 150 sentences in Hindi with 7 different speakers for each. It can be accessed [here](https://drive.google.com/open?id=1DHZkTDgRsG3X9YRAzsWXBdYUXj3sE2DY).
+    
+##### English Digits
+    
+    The dataset can be accessed [here](https://github.com/Ralireza/spoken-digit-recognition/tree/master/spoken_digit).
+
 
 ## IMPLEMENTATIONS
+
+### HMMLEARN IMPLEMENTATION FOR TAMIL AND TELUGU DIGITS RECOGNITION
+
+### Dependencies
+
+* Python (version 2.7. *)
+* hmmlearn
+* python_speech_features
+
+### HTK IMPLEMENTATION FOR HINDI CONTINUOUS SPEECH AND TELUGU WORDS RECOGNITION
+ 
+### HTK Installation (Linux)
+
+* Follow the installation steps mentioned here: https://github.com/conbitin/htk3.5-install 
+
+### Speech Recognition
+
+* Download the Hindi dataset mentioned above.
+* Clone this repository: https://github.com/KunalDhawan/ASR-System-for-Hindi-Language/tree/master/HTK
 
 ### DEEP NEURAL NETWORK FOR TAMIL DIGITS RECOGNITION
 
@@ -143,20 +170,6 @@ Accuracy = 65.0%
 #### Confusion Matrix:
 
 ![Confusion Matrix](/images/confusion_matrix_2.png)
-
-### HMMLEARN IMPLEMENTATION FOR TAMIL AND TELUGU DIGITS RECOGNITION
-
-### Dependencies
-
-* Python (version 2.7. *)
-* hmmlearn
-* python_speech_features
-
-### HTK IMPLEMENTATION FOR HINDI SENTENCES AND TELUGU WORDS RECOGNITION
- 
-### HTK Installation (Linux)
-
-* Follow the installation steps mentioned here: https://github.com/conbitin/htk3.5-install 
 
 ## REFERENCES
 
