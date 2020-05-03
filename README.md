@@ -3,7 +3,7 @@
 ## INTRODUCTION
 
 The aim of this project is to implement automatic speech recognition algorithms using Hidden Markov Models (HMMs) for regional Indian languages. We have self-recorded Tamil digits, Telugu digits and words, and English continuous speech. We have also used external datasets for Hindi continuous speech and English digits. We have implemented HMM based systems using hmmlearn (Python library) and HTK (toolkit). We have also implemented a Deep Neural Network (DNN) based system to draw comparison and have presented our analysis. Following are the working implementations:
-* [hmmlearn for Tamil and Telugu Digits, and Telugu Words Recognition](###hmmlearn-for-tamil-and-telugu-digits-and-telugu-words-recognition)
+* [hmmlearn for Tamil and Telugu Digits, and Telugu Words Recognition](#hmmlearn-for-tamil-and-telugu-digits-and-telugu-words-recognition)
 * [HTK for Hindi Continuous Speech Recognition](###htk-for-hindi-continuous-speech-recognition)
 * [Deep Neural Network (DNN) for Tamil and Telugu Digits Recognition](###deep-neural-network-dnn-for-tamil-and-telugu-digits-recognition)
 
