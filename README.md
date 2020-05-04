@@ -2,9 +2,9 @@
 
 ## INTRODUCTION
 
-The aim of this project is to implement automatic speech recognition algorithms using Hidden Markov Models (HMMs) for regional Indian languages. We have self-recorded Tamil digits, Telugu digits and words, and English continuous speech. We have also used external datasets for Hindi continuous speech and English digits. We have implemented HMM based systems using hmmlearn (Python library) and HTK (toolkit). We have also implemented a Deep Neural Network (DNN) based system to draw comparison and have presented our analysis. Following are the working implementations:
+The aim of this project is to implement automatic speech recognition algorithms using Hidden Markov Models (HMMs) for regional Indian languages. We have self-recorded Tamil digits, Telugu digits and words, and English continuous speech. We have also used external datasets for Hindi continuous speech and English digits. We have implemented HMM based systems using hmmlearn (Python library) and HTK (toolkit). We have also implemented a Deep Neural Network (DNN) based system to draw comparison and have presented our analysis. Following is the list of implementations:
 * [hmmlearn for Tamil, Telugu and English Digits, and Telugu Words Recognition](#hmmlearn-for-tamil-telugu-and-english-digits-and-telugu-words-recognition)
-* [HTK for Hindi Continuous Speech Recognition](#htk-for-hindi-continuous-speech-and-telugu-words-recognition)
+* [HTK for Hindi Continuous Speech and Telugu Words Recognition](#htk-for-hindi-continuous-speech-and-telugu-words-recognition)
 * [Deep Neural Network (DNN) for Tamil and Telugu Digits Recognition](#deep-neural-network-dnn-for-tamil-and-telugu-digits-recognition)
 
 ## LITERATURE REVIEW
@@ -206,11 +206,14 @@ Summary:
 
 ### Hindi Continuous Speech
 
-* Download the Hindi dataset mentioned above.
-* Create a fork of this repository: https://github.com/KunalDhawan/ASR-System-for-Hindi-Language/tree/master/HTK
+* Create a fork of this repository: https://github.com/KunalDhawan/ASR-System-for-Hindi-Language/tree/master/HTK and clone it.
+* Download the Hindi dataset mentioned [above](#externally-obtained-datasets).
+* Store the downloaded 'data' directory in the HTK folder of the cloned repository.
 * Follow the steps mentioned [here](https://kunal-dhawan.weebly.com/asr-system-in-hindi-language-from-scratch.html).
 
 ### Telugu Words
+
+* In the 'doc' directory, create a .txt file, listing all the words in separate sentences.
 
 ### DEEP NEURAL NETWORK (DNN) FOR TAMIL AND TELUGU DIGITS RECOGNITION
 
