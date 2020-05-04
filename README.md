@@ -298,7 +298,7 @@ After training the model, we test on a few unseen samples to see the performance
 ## COMPARISON
 
 DATASET | IMPLEMENTATION | TRAINING ACCURACY | TESTING ACCURACY | SCRIPT | WEIGHT FILE
-------------- | --------- | --------- | ------- | -------------- | ----------------
+:-------------: | :---------: | :---: | :---: | :--------------: | :-------------------------:
 Tamil Digits | hmmlearn | 61.48% | 60.97% |
 Tamil Digits | DNN | 87.27% | 65% | 
 Telugu Digits | hmmlearn | 50.24% | 58.06% |
@@ -309,3 +309,7 @@ Telugu Words | hmmlearn | 65% | 60% |
 Telugu Words | HTK :heavy_exclamation_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign:
 Hindi Continuous Speech| HTK | 
 English Continuous Speech | hmmlearn :heavy_exclamation_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign:
+
+## CONCLUSION
+
+
