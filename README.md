@@ -300,9 +300,9 @@ After training the model, we test on a few unseen samples to see the performance
 DATASET | IMPLEMENTATION | TRAINING ACCURACY | TESTING ACCURACY | SCRIPT | WEIGHT FILE
 :-------------: | :---------: | :---: | :---: | :--------------: | :-------------------------:
 Tamil Digits | hmmlearn | 61.48% | 60.97% | [hmm_digits.py](/hmmlearn/hmm_digits.py)
-Tamil Digits | DNN | 87.27% | 65% | 
+Tamil Digits | DNN | 87.27% | 65% | [DNN_Tamil.ipynb](/DNN/DNN_Tamil.ipynb) | [link](https://drive.google.com/file/d/12TkL3GNNogYDo4VXYAvGymli3S1RFHMf/view?usp=sharing)
 Telugu Digits | hmmlearn | 50.24% | 58.06% | [hmm_digits.py](/hmmlearn/hmm_digits.py)
-Telugu Digits | DNN | 90% | 62.5% |
+Telugu Digits | DNN | 90% | 62.5% | [DNN_TELUGU.ipynb](/DNN/DNN_TELUGU.ipynb) | [link](https://drive.google.com/file/d/1-3g4bKk5_QeMQGhrKUyPxn7gc35z0fGS/view?usp=sharing)
 English Digits (entire dataset) | hmmlearn | 96.75% | 94% | [hmm_digits.py](/hmmlearn/hmm_digits.py)
 English Digits (limited dataset)| hmmlearn | 60% | 60% | [hmm_digits.py](/hmmlearn/hmm_digits.py)
 Telugu Words | hmmlearn | 65% | 60% | [hmm_words.py](/hmmlearn/hmm_words.py)
