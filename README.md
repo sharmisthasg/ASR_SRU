@@ -85,6 +85,31 @@ yevaru | who
 
 ### English (Indian Accent) Continuous Speech
 
+Three speakers recorded data for English continuous speech in an Indian accent.
+
+[Speaker 1](https://drive.google.com/drive/u/1/folders/1yXDQKNBNo4SL6NR2xdRu7Ac2lDRrrIyt) (Male, 20yrs):
+File | Duration
+----- | -----
+rec1.wav | 6:49
+rec2.wav | 7:04
+rec3.wav | 13:34
+rec4.wav | 4:07
+rec5.wav | 7:53
+
+[Speaker 2](https://drive.google.com/drive/u/1/folders/1E1XdjohsZ5X3L9MTh_ombaE_0Gq4T09A) (Male, 21yrs):
+File | Duration
+----- | -----
+rec1.wav | 18:14
+rec2.wav | 30:59
+
+[Speaker 3](https://drive.google.com/drive/u/1/folders/1fDZzaBPO0TB-cTZO9VsEUdWU4JSAblAY) (Male, 21 yrs):
+File | Duration
+----- | -----
+rec1.wav | 8:36
+rec2.wav | 10:29
+rec3.wav | 11:25
+rec4.wav | 9:54
+
 ### Externally Obtained Datasets:
 * **Hindi Continuous Speech:**
 
