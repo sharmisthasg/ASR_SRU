@@ -346,4 +346,4 @@ English Continuous Speech | hmmlearn:heavy_exclamation_mark: | :heavy_minus_sign
 * DNN outperforms the training accuracy of hmmlearn by a large margin.
 * DNN outperforms the testing accuracy of hmmlearn by a smaller margin.
 * Training and testing on the entire English dataset gave ~95% accuracy as opposed to 60% for limited dataset. Thus, more data will significantly improve the accuracies on our self-recorded regional language datasets. 
-* The HTK implementation works successfully for continuous speech data. The next step would be try regional language datasets for continuous speech.
+* The HTK implementation works successfully for continuous speech data. The next step would be to try regional language datasets for continuous speech.
