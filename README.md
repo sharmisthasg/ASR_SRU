@@ -196,6 +196,8 @@ Summary:
   
 * **Limited Dataset**
 
+  We used 20% of the original test data and took 15 samples per digit.
+
   Training Results:
 
   ![Fig](/images/eng_l_train.png)
