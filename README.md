@@ -4,7 +4,7 @@
 
 The aim of this project is to implement automatic speech recognition algorithms using Hidden Markov Models (HMMs) for regional Indian languages. We have self-recorded Tamil digits, Telugu digits and words, and English continuous speech. We have also used external datasets for Hindi continuous speech and English digits. We have implemented HMM based systems using hmmlearn (Python library) and HTK (toolkit). We have also implemented a Deep Neural Network (DNN) based system to draw comparison and have presented our analysis. Following are the working implementations:
 * [hmmlearn for Tamil, Telugu and English Digits, and Telugu Words Recognition](#hmmlearn-for-tamil-telugu-and-english-digits-and-telugu-words-recognition)
-* [HTK for Hindi Continuous Speech Recognition](#htk-for-hindi-continuous-speech-recognition)
+* [HTK for Hindi Continuous Speech Recognition](#htk-for-hindi-continuous-speech-and-telugu-words-recognition)
 * [Deep Neural Network (DNN) for Tamil and Telugu Digits Recognition](#deep-neural-network-dnn-for-tamil-and-telugu-digits-recognition)
 
 ## LITERATURE REVIEW
@@ -198,16 +198,19 @@ Summary:
   ![Fig](/images/eng_l_test.png)
   **Accuracy:** 60% 
 
-### HTK FOR HINDI CONTINUOUS SPEECH RECOGNITION
+### HTK FOR HINDI CONTINUOUS SPEECH AND TELUGU WORDS RECOGNITION
  
 ### HTK Installation (Linux)
 
 * Follow the installation steps mentioned here: https://github.com/conbitin/htk3.5-install 
 
-### Speech Recognition
+### Hindi Continuous Speech
 
 * Download the Hindi dataset mentioned above.
-* Clone this repository: https://github.com/KunalDhawan/ASR-System-for-Hindi-Language/tree/master/HTK
+* Create a fork of this repository: https://github.com/KunalDhawan/ASR-System-for-Hindi-Language/tree/master/HTK
+* Follow the steps mentioned [here](https://kunal-dhawan.weebly.com/asr-system-in-hindi-language-from-scratch.html).
+
+### Telugu Words
 
 ### DEEP NEURAL NETWORK (DNN) FOR TAMIL AND TELUGU DIGITS RECOGNITION
 
