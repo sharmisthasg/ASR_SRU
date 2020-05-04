@@ -228,11 +228,11 @@ Summary:
 * Now go to scripts_ph_pl_py folder and edit the HTK_home variable in master.sh with the absolute path of your HTK dir. 
 * Also give read_write permissions to all the files present here -> chmod a+rx *.sh *.pl *.py.
 * Now cd into the parent directory and run the following commands to:
-1. Generate env var and mfcc features
-2. Write the transcription  
-3. Initialize PDF of each phone model
-4. Fit the data
-5. Evaluate the output
+  1. Generate env var and mfcc features
+  2. Write the transcription  
+  3. Initialize PDF of each phone model
+  4. Fit the data
+  5. Evaluate the output
 
 > scripts_sh_pl_py/master.sh HCOPY  
 > scripts_sh_pl_py/master.sh LEXICON
