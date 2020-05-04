@@ -131,6 +131,8 @@ rec4.wav | 9:54
 
 ### Tamil Digits
 
+**Note:** To reproduce the results, refer [this](#comparison) section for the script and weight file.
+
 Training Results:
 
 ![Fig](/images/tam_train.png)
@@ -147,6 +149,8 @@ Summary:
 
 ### Telugu Digits
 
+**Note:** To reproduce the results, refer [this](#comparison) section for the script and weight file.
+
 Training Results:
 
 ![Fig](/images/telugu_dig_train.png)
@@ -158,6 +162,8 @@ Testing Results:
 **Accuracy:** 58.06%
 
 ### Telugu Words
+
+**Note:** To reproduce the results, refer [this](#comparison) section for the script and weight file.
 
 Training Results:
 
@@ -173,6 +179,8 @@ Summary:
 ![Fig](/images/telugu_words_test_2.png)
 
 ### English Digits
+
+**Note:** To reproduce the results, refer [this](#comparison) section for the script and weight file.
 
 * **Entire Dataset**
 
@@ -226,6 +234,8 @@ Summary:
 
 ### Tamil Digits
 
+**Note:** To reproduce the results, refer [this](#comparison) section for the script and weight file.
+
 In order to compare the performance of the HMM model on the tamil digits dataset, we train a modern deep learning architecture for the same dataset and observe the performance and compare it with the previous model. 
 
 The deep learning model that has been chosen is a Long Short-Term Memory (LSTM) model. LSTM are a special member of the Recurrent Neural Network (RNN) family and have the ability to model the data based on previous data. A non-recurrent Neural Network does not have any memory whereas an RNN has a limited memory and they tend to perform badly on data that has long term temporal dependency on the previous data. LSTM also has the ability to decide how much information to use in its memory as they have input gates, forget gates and output gates. 
@@ -260,8 +270,6 @@ We trained the model on 220 samples by shuffling the samples. The model was trai
 
 ![Loss Plot for Training](/images/loss_plot.png)
 
-The trained model along with the weights can be accessed [here](https://drive.google.com/file/d/12TkL3GNNogYDo4VXYAvGymli3S1RFHMf/view?usp=sharing).
-
 **Testing Results**
 
 After training the model, we test on a few unseen samples to see the performance of the model. 
@@ -275,6 +283,8 @@ After training the model, we test on a few unseen samples to see the performance
 ![Confusion Matrix](/images/confusion_matrix_2.png)
 
 ### Telugu Digits
+
+**Note:** To reproduce the results, refer [this](#comparison) section for the script and weight file.
 
 In order to compare the performance of the HMM model on the telugu digits dataset, we train a modern deep learning architecture for the same dataset and observe the performance and compare it with the previous model. 
 
@@ -311,8 +321,6 @@ We trained the model on 50 samples by shuffling the samples. The model was train
 #### Loss Plot for Training:
 
 ![Loss Plot for Training](/images/loss_plot_telugu.png)
-
-The trained model along with the weights can be accessed [here](https://drive.google.com/file/d/1-3g4bKk5_QeMQGhrKUyPxn7gc35z0fGS/view?usp=sharing).
 
 **Testing Results**
 
