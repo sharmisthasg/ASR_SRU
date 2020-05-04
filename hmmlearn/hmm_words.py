@@ -18,7 +18,7 @@ block 2 for opening trained weights from pickle file
 block 3 for testing on whatever accordingly see
 '''
 
-def build_dataset(sound_path='TeluguWords/'):
+def build_dataset(sound_path='Words/'):
     files = sorted(os.listdir(sound_path))
     x_train = []
     y_train = []
@@ -131,8 +131,8 @@ with open("learned_tam4.pkl", "rb") as file:
 
 
 '''Block 3 start'''
-boros = 'TeluguWords/'
-files = sorted(os.listdir("TeluguWords/"))
+boros = 'Words/'
+files = sorted(os.listdir("Words/"))
 tot_test = 0
 tot_train = 0
 n = len(x_test)
