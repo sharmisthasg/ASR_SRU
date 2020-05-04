@@ -295,5 +295,17 @@ After training the model, we test on a few unseen samples to see the performance
 
 ![Confusion Matrix](/images/confusion_matrix_2_telugu.png)
 
-## REFERENCES
+## COMPARISON
 
+DATASET | IMPLEMENTATION | TRAINING ACCURACY | TESTING ACCURACY | SCRIPT | WEIGHT FILE
+------------- | --------- | --------- | ------- | -------------- | ----------------
+Tamil Digits | hmmlearn | 61.48% | 60.97% |
+Tamil Digits | DNN | 87.27% | 65% | 
+Telugu Digits | hmmlearn | 50.24% | 58.06% |
+Telugu Digits | DNN | 90% | 62.5% |
+English Digits (entire dataset) | hmmlearn | 96.75% | 94% | 
+English Digits (limited dataset)| hmmlearn | 60% | 60% |
+Telugu Words | hmmlearn | 65% | 60% |
+Telugu Words | HTK :heavy_exclamation_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign:
+Hindi Continuous Speech| HTK | 
+English Continuous Speech | hmmlearn :heavy_exclamation_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign:
