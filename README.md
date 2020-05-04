@@ -75,12 +75,12 @@ kalisi | together
 kannu | eye
 kodatanu | beats
 konchum | slightly
-manum | 
+manum | us
 meeru | you
 nanna | father
 nenu | I
 pinni | aunt
-sonthum | 
+sonthum | ourselves
 yevaru | who
 
 ### English (Indian Accent) Continuous Speech
