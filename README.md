@@ -234,12 +234,12 @@ Summary:
   4. Fit the data
   5. Evaluate the output
 
-> scripts_sh_pl_py/master.sh HCOPY  
-> scripts_sh_pl_py/master.sh LEXICON
-> scripts_sh_pl_py/master.sh HCOMPV  
-> scripts_sh_pl_py/master.sh HEREST          
-> scripts_sh_pl_py/master.sh ALIGN 
-> scripts_sh_pl_py/master.sh HVITE_MONO   
+>> scripts_sh_pl_py/master.sh HCOPY   
+>> scripts_sh_pl_py/master.sh LEXICON   
+>> scripts_sh_pl_py/master.sh HCOMPV  
+>> scripts_sh_pl_py/master.sh HEREST          
+>> scripts_sh_pl_py/master.sh ALIGN  
+>> scripts_sh_pl_py/master.sh HVITE_MONO 
 
 ![Fig](/images/htk-telugu.jpeg)
 
