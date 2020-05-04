@@ -346,7 +346,7 @@ English Digits (entire dataset) | hmmlearn | 96.75% | 94% | [hmm_digits.py](/hmm
 English Digits (limited dataset)| hmmlearn | 60% | 60% | [hmm_digits.py](/hmmlearn/hmm_digits.py)
 Telugu Words | hmmlearn | 65% | 60% | [hmm_words.py](/hmmlearn/hmm_words.py)
 Telugu Words | HTK:heavy_exclamation_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign:
-Hindi Continuous Speech| HTK | 
+Hindi Continuous Speech| HTK | :heavy_minus_sign: | 67.35% | :heavy_minus_sign: | :heavy_minus_sign:
 English Continuous Speech | hmmlearn:heavy_exclamation_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign:
 
 ## CONCLUSION AND FUTURE WORK
