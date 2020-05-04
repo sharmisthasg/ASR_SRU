@@ -225,6 +225,8 @@ Summary:
 
 ### Telugu Words
 
+**Note**: Our forked repository can be found [here](https://github.com/verma-bhavya/telugu_asr_htk/tree/master/HTK).
+
 * Upload the data in ./data dir in the corresponding train and test directories. 
 * Prepare a transliteration file and a lexicon file (phone level) (hindiSentences150.txt and lexicon.txt respectively in the original repository) for all the words present in the speech samples and put in ./doc and ./lm respectively.
 * Now go to scripts_ph_pl_py folder and edit the HTK_home variable in master.sh with the absolute path of your HTK dir. 
