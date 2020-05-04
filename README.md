@@ -219,9 +219,13 @@ Summary:
 * Store the downloaded 'data' directory in the HTK folder of the cloned repository.
 * Follow the steps mentioned [here](https://kunal-dhawan.weebly.com/asr-system-in-hindi-language-from-scratch.html).
 
+![Fig](/images/htk-hindi.jpeg)
+
 ### Telugu Words
 
 * In the 'doc' directory, create a .txt file, listing all the words in separate sentences.
+
+![Fig](/images/htk-telugu.jpeg)
 
 ### DEEP NEURAL NETWORK (DNN) FOR TAMIL AND TELUGU DIGITS RECOGNITION
 
